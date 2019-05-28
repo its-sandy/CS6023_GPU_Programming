@@ -1,0 +1,58 @@
+Results on my laptop
+
+./cs16b107_1 1000000 5 text_8_1M.txt
+Threads per Block = 1024, elapsed time = 1.199072 ms
+Threads per Block = 512, elapsed time = 1.147296 ms
+Threads per Block = 256, elapsed time = 1.136480 ms
+Threads per Block = 128, elapsed time = 1.175104 ms
+Threads per Block = 64, elapsed time = 1.175328 ms
+Threads per Block = 32, elapsed time = 1.278496 ms
+Threads per Block = 16, elapsed time = 2.008672 ms
+Threads per Block = 8, elapsed time = 3.887008 ms
+Threads per Block = 4, elapsed time = 7.133024 ms
+Threads per Block = 2, elapsed time = 15.782688 ms
+Threads per Block = 1, elapsed time = 22.072191 ms
+
+best config is usually 256 and sometimes 128
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Q1 -> 128 best
+
+Q2 -> 256 best
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+find best config for all questions
+see if input can be put in shared memory like with convolutions
+how many outputs is each thread wotking on?
+
+%%%%%%%%%%%%
+Q3
+we use many representative threads in q3 ... gives overall best, also best around 256....poorer around 1 thread around due to overhead
+
+%%%%%%%%%%%%
+Q4
+2,3,4,5 lengths are the most common
+we store in shared memory if all words are of these lengths, else in global
+4^5 = 1024
+
+%%%%%%%%%%%%%%%%%
+Q5
+256 threads per block ->at most 368 integers for every 8 thread group
+hot-spot bins when all lengths in [2,3,4] -> most common......3^5 = 343 < 368
+describe configuration in report
+faster than what i got using 8 threads per block in Q4
+tiling for initialising and updating global
+
+%%%%%%%%%%%%%%%%%
+not much differences because hot-spots are'nt that different from normal ones 
+times averaged over 20 iterations
+many threads updating vs one representative thread.... is it done without collision of atomics? if so, high?
+explain why different configurations for different questions
+check code correctness
+reasons for observations
+comment code
+
+%%%%%%%%%%%%%%%%%%%%
+32 threads per block

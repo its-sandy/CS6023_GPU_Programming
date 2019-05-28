@@ -1,0 +1,2 @@
+Kernel 1 (fastest varying index as .x) elapsed time = 55155.941406 ms
+Kernel 2  (fastest varying index as .y) elapsed time = 11679.338867 ms

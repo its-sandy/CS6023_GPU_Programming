@@ -1,0 +1,1 @@
+Kernel 2  (fastest varying index as .y) elapsed time = 11551.587891 ms

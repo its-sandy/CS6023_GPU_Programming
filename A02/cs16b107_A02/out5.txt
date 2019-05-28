@@ -1,0 +1,4 @@
+tile size = 4x4; elapsed time = 40722.644531 ms
+tile size = 8x8; elapsed time = 8696.282227 ms
+tile size = 16x16; elapsed time = 5449.530762 ms
+tile size = 32x32; elapsed time = 4764.814453 ms

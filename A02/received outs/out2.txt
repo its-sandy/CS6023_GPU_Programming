@@ -1,0 +1,9 @@
+Run Times for n = 8192
+Grid Structure: (2048, 2048); Block Structure: (4, 4); Time (ms): 36876.222656
+Grid Structure: (2048, 1024); Block Structure: (4, 8); Time (ms): 29826.945312
+Grid Structure: (1024, 1024); Block Structure: (8, 8); Time (ms): 17598.478516
+Grid Structure: (1024, 512); Block Structure: (8, 16); Time (ms): 17664.861328
+Grid Structure: (512, 512); Block Structure: (16, 16); Time (ms): 11492.361328
+Grid Structure: (512, 256); Block Structure: (16, 32); Time (ms): 11285.802734
+Grid Structure: (256, 256); Block Structure: (32, 32); Time (ms): 13932.756836
+Grid Structure: (512, 128); Block Structure: (16, 64); Time (ms): 10428.624023

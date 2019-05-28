@@ -1,0 +1,11 @@
+Blocks: (1<<15), threadsPerBlock: (1<<0), Average Time (ms): 0.108940
+Blocks: (1<<14), threadsPerBlock: (1<<1), Average Time (ms): 0.058872
+Blocks: (1<<13), threadsPerBlock: (1<<2), Average Time (ms): 0.034304
+Blocks: (1<<12), threadsPerBlock: (1<<3), Average Time (ms): 0.021738
+Blocks: (1<<11), threadsPerBlock: (1<<4), Average Time (ms): 0.016008
+Blocks: (1<<10), threadsPerBlock: (1<<5), Average Time (ms): 0.013372
+Blocks: (1<<9), threadsPerBlock: (1<<6), Average Time (ms): 0.011559
+Blocks: (1<<8), threadsPerBlock: (1<<7), Average Time (ms): 0.010493
+Blocks: (1<<7), threadsPerBlock: (1<<8), Average Time (ms): 0.010566
+Blocks: (1<<6), threadsPerBlock: (1<<9), Average Time (ms): 0.010645
+Blocks: (1<<5), threadsPerBlock: (1<<10), Average Time (ms): 0.011145

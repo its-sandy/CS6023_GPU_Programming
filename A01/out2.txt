@@ -1,0 +1,3 @@
+memory bus width (bits) = 384
+memory clock rate (kHz) = 3004000
+memory bandwidth (GB/s) = 288.384
